@@ -18,7 +18,7 @@ const categories = [
 
 
 function Attractions() {
-  const [currentPage, setCurrentPage] = useState(1); // открытая страница (ну типо какая по счёту идёт)
+  const [currentPage, setCurrentPage] = useState(1); // Открытая страница (ну типо какая по счёту идёт)
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
 
